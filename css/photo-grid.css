@@ -118,6 +118,10 @@
 	list-style: none;
 }
 
+ul.portfolio-links li {
+	margin-left: -100px;
+}
+
 .popup-contents {
 	text-align: center;
 }
