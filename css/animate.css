@@ -1,0 +1,82 @@
+.about {
+    -webkit-animation: about 1s ease forwards;
+    animation: about 1s ease forwards;
+}
+.about {
+    width: 100%;
+}
+@-webkit-keyframes about {
+    from { width: 25%; }
+    to { width: 100%; }
+}
+@keyframes about {
+    from { width: 25%; }
+    to { width: 100%; }
+}
+
+.portfolio {
+    -webkit-animation: portfolio 1s ease forwards;
+    animation: portfolio 1s ease forwards;
+}
+.portfolio {
+    width: 100%;
+}
+@-webkit-keyframes portfolio {
+    from { width: 25%;left: 25%; }
+    to { width: 100%;  left: 0;}
+}
+@keyframes portfolio {
+    from { width: 25%;left: 25%; }
+    to { width: 100%;  left: 0;}
+}
+
+
+.fade-in {
+	opacity: 0;
+    -webkit-animation: fade-in 1s ease forwards;
+    animation: fade-in 1s ease forwards;
+    animation-delay: .2s;
+}
+
+@-webkit-keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fade-in {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+.experience {
+    -webkit-animation: experience 1s ease backwards;
+    animation: experience 1s ease backwards;
+}
+.experience {
+    width: 100%;
+}
+@-webkit-keyframes experience {
+    from { width: 25%;left: 50%; }
+    to { width: 100%;  left: 0;}
+}
+@keyframes experience {
+    from { width: 25%;left: 50%; }
+    to { width: 100%;  left: 0;}
+}
+
+.contact {
+    -webkit-animation: contact 1s ease forwards;
+    animation: contact 1s ease forwards;
+}
+.contact {
+    width: 100%;
+}
+@-webkit-keyframes contact {
+    from { width: 25%;left: 75%; }
+    to { width: 100%;  left: 0;}
+}
+@keyframes contact {
+    from { width: 25%;left: 75%; }
+    to { width: 100%;  left: 0;}
+}

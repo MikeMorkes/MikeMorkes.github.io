@@ -1,0 +1,130 @@
+.about {
+    -webkit-animation: about 1s ease both;
+    animation: about 1s ease both;
+}
+.about {
+    width: 25%;
+}
+@-webkit-keyframes about {
+    from { width: 0%; }
+    to { width: 25%; }
+}
+@keyframes about {
+    from { width: 0%; }
+    to { width: 25%; }
+}
+
+.portfolio {
+    -webkit-animation: portfolio 1s ease both;
+    animation: portfolio 1s ease both;
+}
+.portfolio {
+    width: 25%;
+}
+@-webkit-keyframes portfolio {
+    from { width: 0%;}
+    to { width: 25%; }
+}
+@keyframes portfolio {
+    from { width: 0%;}
+    to { width: 25%; }
+}
+
+.experience {
+    -webkit-animation: experience 1s ease both;
+    animation: experience 1s ease both;
+}
+.experience {
+    width: 25%;
+}
+@-webkit-keyframes experience {
+    from { width: 0%;}
+    to { width: 25%; }
+}
+@keyframes experience {
+    from { width: 0%;}
+    to { width: 25%; }
+}
+
+.contact {
+    -webkit-animation: contact 1s ease both;
+    animation: contact 1s ease both;
+}
+.contact {
+    width: 25%;
+}
+@-webkit-keyframes contact {
+    from { width: 0%;}
+    to { width: 25%; }
+}
+@keyframes contact {
+    from { width: 0%;}
+    to { width: 25%; }
+}
+
+@media (max-width:768px){
+	.about {
+	    -webkit-animation: about 1s ease both;
+	    animation: about 1s ease both;
+	}
+	.about {
+	    width: 100%;
+	}
+	@-webkit-keyframes about {
+	    from { width: 0%; }
+	    to { width: 100%; }
+	}
+	@keyframes about {
+	    from { width: 0%; }
+	    to { width: 100%; }
+	}
+	
+	.portfolio {
+	    -webkit-animation: portfolio 1s ease both;
+	    animation: portfolio 1s ease both;
+	}
+	.portfolio {
+	    width: 100%;
+	}
+	@-webkit-keyframes portfolio {
+	    from { width: 0%;}
+	    to { width: 100%; }
+	}
+	@keyframes portfolio {
+	    from { width: 0%;}
+	    to { width: 100%; }
+	}
+	
+	.experience {
+	    -webkit-animation: experience 1s ease both;
+	    animation: experience 1s ease both;
+	}
+	.experience {
+	    width: 100%;
+	}
+	@-webkit-keyframes experience {
+	    from { width: 0%;}
+	    to { width: 100%; }
+	}
+	@keyframes experience {
+	    from { width: 0%;}
+	    to { width: 100%; }
+	}
+	
+	.contact {
+	    -webkit-animation: contact 1s ease both;
+	    animation: contact 1s ease both;
+	}
+	.contact {
+	    width: 100%;
+	}
+	@-webkit-keyframes contact {
+	    from { width: 0%;}
+	    to { width: 100%; }
+	}
+	@keyframes contact {
+	    from { width: 0%;}
+	    to { width: 100%; }
+	}
+
+}

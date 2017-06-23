@@ -1,0 +1,95 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 30px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 80px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+}
+
+@media(max-width: 940px) {
+	.nav-right {
+		text-align: center !important;
+		float:none !important;
+		display:inline-block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}    
+}
+
+.navbar-brand {
+	font-family: 'Arvo', serif;
+    margin-top: 10px;
+	-webkit-font-smoothing:antialiased;	
+	color: #fff !important;
+}
+
+.navbar-brand:hover {
+	color: #fdc00f !important;
+}
+
+.nav-right {
+	text-align: right;
+	float: right;
+}
+
+.menu-border-left {
+	border-left: 1px solid #666;
+}
+
+.menu-border-right {
+	border-right: 1px solid #666;
+}
+
+.nav>li a {
+	color: #9d9d9d;
+}
+
+.nav>li:hover {
+	background-color: #fdc00f !important;
+   -moz-transition: all 0.2s linear  !important;
+   -webkit-transition: all 0.2s linear  !important;
+   -o-transition: all 0.2s linear  !important;
+   transition: all 0.2s linear  !important;		
+}
+
+.nav>li a:hover {
+	color: #666 !important;
+	background-color: #fdc00f !important;
+   -moz-transition: all 0.8s linear  !important;
+   -webkit-transition: all 0.8s linear  !important;
+   -o-transition: all 0.8s linear  !important;
+   transition: all 0.8s linear  !important;		
+}
+
+.nav-active-page {
+	background-color: #666 !important;
+   -moz-transition: all 0.2s linear;
+   -webkit-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   transition: all 0.2s linear;		
+}
+
+.nav-active-page a {
+	color: #fff !important;	
+}
