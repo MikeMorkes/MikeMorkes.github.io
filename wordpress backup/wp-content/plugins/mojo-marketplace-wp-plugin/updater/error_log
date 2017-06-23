@@ -1,6 +1,0 @@
-[27-Jun-2015 12:21:22 America/Denver] PHP Fatal error:  Class 'GitHub_Updater' not found in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/updater/class-plugin-updater.php on line 19
-[29-Jun-2015 04:57:33 America/Denver] PHP Fatal error:  Class 'GitHub_Updater' not found in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/updater/class-github-api.php on line 17
-[11-Jul-2015 05:46:21 America/Denver] PHP Fatal error:  Class 'GitHub_Updater' not found in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/updater/class-github-api.php on line 17
-[13-Jul-2015 09:24:51 America/Denver] PHP Fatal error:  Class 'GitHub_Updater' not found in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/updater/class-plugin-updater.php on line 19
-[14-Jul-2015 15:16:03 America/Denver] PHP Fatal error:  Class 'GitHub_Updater' not found in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/updater/class-github-api.php on line 17
-[17-Jul-2015 09:25:32 America/Denver] PHP Fatal error:  Class 'GitHub_Updater' not found in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/updater/class-plugin-updater.php on line 19

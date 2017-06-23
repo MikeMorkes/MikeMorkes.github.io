@@ -1,6 +1,0 @@
-[03-Aug-2015 16:21:43 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/tests/jetpack-start/jetpack-start.php on line 10
-[10-Aug-2015 00:23:06 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/tests/jetpack-start/jetpack-start.php on line 10
-[16-Aug-2015 00:23:49 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/tests/jetpack-start/jetpack-start.php on line 10
-[30-Sep-2015 13:31:43 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/tests/jetpack-start/jetpack-start.php on line 10
-[04-Oct-2015 15:35:46 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/tests/jetpack-start/jetpack-start.php on line 10
-[16-Oct-2015 13:29:36 America/Denver] PHP Fatal error:  Call to undefined function plugins_url() in /home6/mikemork/public_html/wp-content/plugins/mojo-marketplace-wp-plugin/tests/jetpack-start/jetpack-start.php on line 10
