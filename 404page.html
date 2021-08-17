@@ -19,9 +19,10 @@
     <link href="css/logo-nav.css" rel="stylesheet">    
     <link href="css/animate.css" rel="stylesheet">    
     
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
-<link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>    
+    <link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>  
+    <link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">  
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,62 +35,63 @@
 
 <body>
 
-    <!-- New Nav - I don't like Bootstrap's Navbar -->
-  
-    <div class="container-fluid newnav">
-        <div class="row">
-        	<div class="col-md-6 col-md-12">
-        	<a class="navbar-brand" href="index.html">Mike Morkes, Web Design & Development</a>
-        	</div>
-        	<div class="col-md-6 col-md-12">
-                <ul class="nav navbar-nav nav-right">
-                    <li class="menu-border-left">
-                        <a href="about.html">About</a>
-                    </li>
-                    <li class="menu-border-left">
-                        <a href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="menu-border-left">
-                    	<a href="resume.html">R&eacute;sum&eacute;</a>
-                    </li>
-                    <li class="menu-border-left menu-border-right">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-        	
-        	</div>
-		</div>
-	</div>    
-    
-    <!-- end New Nav - I don't like Bootstrap's Navbar -->    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Mike Morkes, Web Design & Development</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="code-portfolio.html">Code Portfolio</a>
+                        </li>
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="design-portfolio.html">Design Portfolio</a>
+                        </li>
+                        <li class="nav-item menu-border-left menu-border-right px-3">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <!-- Page Content -->
-    <div class="container-fluid stretch">
-        <div class="row">
-            <div class="col-sm-12 four-oh-four taffy taffy-zapper">
-            	<div class="container fade-in">
-            		<div class="row">
-            			<div class="col-md-3 col-lg-2"></div>
-            			<div class="col-md-6 col-lg-8 bumper">
-            				<img class="rounders big-icons" src="img/404-art_small.png">
-                			<h1>404 ERROR - WHAT DID YOU DO?!?</h1>
-                			<p class="">Seriously, what did you click? If you broke something, I'll see you in court, man! </p>
-                			<p class=""><a href="javascript:history.back()" class="white-link">Go back and try again...I'm watching you.</a></p>
-                										
-                		</div>
-            			<div class="col-md-3 col-lg-2"></div>
-            		</div>
-            	</div>
+    <main>
+        <!-- Page Content -->
+        <div class="container-fluid h-100">
+            <div class="row">
+                <div class="col-sm-12 four-oh-four taffy taffy-zapper">
+                    <div class="container fade-in">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-2"></div>
+                            <div class="col-md-6 col-lg-8 bumper">
+                                <img class="rounders big-icons" src="img/404-art_small.png">
+                                <h1>404 ERROR - WHAT DID YOU DO?!?</h1>
+                                <p class="">Seriously, what did you click? If you broke something, I'll see you in court, man! </p>
+                                <p class=""><a href="javascript:history.back()" class="white-link">Go back and try again...I'm watching you.</a></p>
+                                                            
+                            </div>
+                            <div class="col-md-3 col-lg-2"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- /.container -->
+        <!-- /.container -->
+    </main>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+	<!-- jQuery -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- refresh layout dynamically without a reload when width changes   -->
         <script>window.addEventListener('orientationchange', function () {

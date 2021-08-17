@@ -15,24 +15,43 @@
 }
 
 
+html, body {
+	height: 100%;
+}
+
 body {
-	/* background: url(http://mikemorkes.com/codepen/texture11.jpg) center center; */
 	background-color: #000;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	color: #fff;
-	padding-top: 0 !important;
+	padding-top: 0!important;
+	display: flex;
+	flex-flow: column;
 }
 
-html, body {
+.box {
+	display: flex;
+	flex-flow: row;
 	height: 100%;
+}
+
+.box-column {
+	flex: 1 1 auto;
+}
+
+header {
+	flex: 0 1 76px;
+}
+
+main {
+	flex: 1 1 auto
 }
 
 h1 {
 	color: #fdc00f;
 	font-size: 28px;
-	font-family: 'Arvo', serif;
-	font-weight:700 !important;
+	font-family: 'Ultra', serif;
+	font-weight:400 !important;
 	-webkit-font-smoothing:antialiased;	
 }
 
@@ -43,20 +62,20 @@ h1 {
 h2 {
 	color: #fdc00f;
 	font-size: 28px;
-	font-family: 'Arvo', serif;
-	font-weight:700 !important;
+	font-family: 'Ultra', serif;
+	font-weight:400 !important;
 	-webkit-font-smoothing:antialiased;	
 }
 
 h3 {
 	color: #fff;
-	font-family: 'Arvo', serif;
+	font-family: 'Ultra', serif;
 	font-weight:400 !important;
 	-webkit-font-smoothing:antialiased;	
 	margin-top: 35px;
 }
 
-a:hover {
+a {
 	text-decoration: none !important;
 }
 
@@ -84,11 +103,17 @@ p {
 	text-align: right;
 }
 
-.newnav {
-	margin: 0 auto;
+.bg-black {
 	background: #000000;
-	width: 100%;
-	max-width: 940px;
+}
+
+.bg-yellow {
+	background-color: #fdc00f !important;
+	border-color: #fdc00f !important;
+}
+
+.bg-about {
+	background-color: #151619 !important;
 }
 
 .navbar-brand {
@@ -104,12 +129,18 @@ p {
 }
 
 .nav li {
-	float: left !important;
+	padding: auto 1rem;
+}
+#navbarNav > ul > li > a {
+	color: #fff;
+}
+#navbarNav > ul > li > a:hover {
+	color: #fdc00f;
 }
 
-	.masthead h1 {
-		text-align: center;		
-	}
+.masthead h1 {
+	text-align: center;		
+}
 	
 @media(max-width:940px) {
 		.navbar-nav {
@@ -276,8 +307,8 @@ p {
 }
 
 .taffy {
-	margin-bottom: -9999px;
-	padding-bottom: 9999px;
+	/* margin-bottom: -9999px;
+	padding-bottom: 9999px; */
 	padding-top: 15%;
 }
 
@@ -390,6 +421,7 @@ textarea {
 	border-left: 5px solid rgba(255, 255, 255, .2);
 	-webkit-background-clip: padding-box; /* for Safari */
 	background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */	
+	padding-left: 10px;
 }
 
 .centerallthethings {
@@ -497,7 +529,7 @@ hr {
 
 .panel-mike-title {
 	font-size: 28px;
-	font-weight: 700 !important;
+	font-weight: 400 !important;
 }
 
 .glyphicon.glyphicon-plus, .glyphicon.glyphicon-minus {

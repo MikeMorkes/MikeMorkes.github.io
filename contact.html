@@ -21,7 +21,8 @@
 
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
-<link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>    
+<link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>  
+<link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">  
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,96 +47,97 @@
 
 <body>
 
-    <!-- New Nav - I don't like Bootstrap's Navbar -->
-  
-    <div class="container-fluid newnav">
-        <div class="row">
-        	<div class="col-md-6 col-md-12">
-        	<a class="navbar-brand" href="index.html">Mike Morkes, Web Design & Development</a>
-        	</div>
-        	<div class="col-md-6 col-md-12">
-                <ul class="nav navbar-nav nav-right">
-                    <li class="menu-border-left">
-                        <a href="about.html">About</a>
-                    </li>
-                    <li class="menu-border-left">
-                        <a href="code-portfolio.html">Code Portfolio</a>
-                    </li>
-                    <li class="menu-border-left">
-                    	<a href="design-portfolio.html">Design Portfolio</a>
-                    </li>
-                    <li class="menu-border-left nav-active-page menu-border-right">
-                        <a href="contact.html"><strong>Contact</strong></a>
-                    </li>
-                </ul>
-        	
-        	</div>
-		</div>
-	</div>    
-    
-    <!-- end New Nav - I don't like Bootstrap's Navbar -->   
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Mike Morkes, Web Design & Development</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="code-portfolio.html">Code Portfolio</a>
+                        </li>
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="design-portfolio.html">Design Portfolio</a>
+                        </li>
+                        <li class="nav-item menu-border-left menu-border-right px-3">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <!-- Page Content -->
-    <div class="container-fluid stretch">
-        <div class="row">
-            <div class="col-sm-12 contact taffy taffy-zapper">
-            	<div class="container fade-in">
-            		<div class="row">
-            			<div class="col-md-3"></div>
-            			<div class="col-md-6">
-            				<img class="rounders med-icons" src="img/contact-icon.png">
-                			<h1>Contact Mike Morkes</h1>     
-                			<form  method="post" action="index.php" class="text-left">
-        
-    							<label>Name</label>
-							    <input name="name" placeholder="Type Your Name Here">
-							            
-							    <label>Email</label>
-							    <input name="email" type="email" placeholder="Type Your Email Here">
-							            
-							    <label>Message</label>
-							    <textarea name="message" placeholder="Type Your Message Here"></textarea>
-							    
-							    <label>*What is 2+2? (Anti-spam)</label>
-								<input name="human" placeholder="Type Answer Here">
-							            
-							    <input id="submit" name="submit" type="submit" value="Submit">
-							        
-							</form>  
-							
-							
-                			<h2 class="text-left">Mike Morkes</h2>
-                			<h4 class="white-phone text-left"><a href="mailto:mikemorkes@gmail.com" target="_blank" class="white-link">mikemorkes@gmail.com</a></h4>
-                			<h4 class="text-left"><a href="https://twitter.com/mikemorkes" target="_blank"><img src="img/twitter_logo.png" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><a href="https://www.linkedin.com/pub/mike-morkes/7/88/902" target="_blank"><img src="img/linkedin_logo.png" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><br /><br /></h4>
-                			<h4>&nbsp;</h4>
-                			                												     			
-            			<div class="col-md-3"></div>
-            			</div>
-            		</div>
-            		<div class="row">
-            			<div class="col-md-3"></div>
-            			<div class="col-md-2">
+    <main>
+        <!-- Page Content -->
+        <div class="container-fluid h-100">
+            <div class="row">
+                <div class="col-sm-12 contact taffy taffy-zapper">
+                    <div class="container fade-in">
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <img class="rounders med-icons" src="img/contact-icon.png">
+                                <h1>Contact Mike Morkes</h1>     
+                                <form  method="post" action="index.php" class="text-left">
+            
+                                    <label for="name">Name</label>
+                                    <input type="text" input name="name" id="name" placeholder="Type Your Name Here">
+                                            
+                                    <label for="email">Email</label>
+                                    <input name="email" type="email" id="email" placeholder="Type Your Email Here">
+                                            
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" placeholder="Type Your Message Here"></textarea>
+                                    
+                                    <label>*What is 2+2? (Anti-spam)</label>
+                                    <input type="text" input name="human" placeholder="Type Answer Here for Spam Prevention" aria-label="What is 2 plus 2?">
+                                            
+                                    <input id="submit" name="submit" type="submit" value="Submit">
+                                        
+                                </form>  
+                                
+                                
+                                <h2 class="text-left">Mike Morkes</h2>
+                                <h4 class="white-phone text-left"><a href="mailto:mikemorkes@gmail.com" target="_blank" class="white-link">mikemorkes@gmail.com</a></h4>
+                                <h4 class="text-left"><a href="https://twitter.com/mikemorkes" target="_blank"><img src="img/twitter_logo.png" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><a href="https://www.linkedin.com/pub/mike-morkes/7/88/902" target="_blank"><img src="img/linkedin_logo.png" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><br /><br /></h4>
+                                <h4>&nbsp;</h4>
+                                                                                                                
+                            <div class="col-md-3"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-2">
 
-                		</div>
-                		<div class="col-md-2">
-					
-                   		</div>
-                		<div class="col-md-2">
+                            </div>
+                            <div class="col-md-2">
+                        
+                            </div>
+                            <div class="col-md-2">
 
-                   		</div>
-            			<div class="col-md-3"></div>
-            		</div>
-            	</div>
+                            </div>
+                            <div class="col-md-3"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- /.container -->
+        <!-- /.container -->
+    </main>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+	<!-- jQuery -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.bundle.min.js"></script>
     
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

@@ -23,6 +23,8 @@
 
 <link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>    
 
+<link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,37 +48,36 @@
 
 <body>
     
-    <!-- New Nav - I don't like Bootstrap's Navbar -->
-  
-    <div class="container-fluid newnav">
-        <div class="row">
-        	<div class="col-md-6 col-md-12" id="logo">
-        		<a class="navbar-brand" href="index.html">Mike Morkes, Web Design & Development</a>
-        	</div>
-        	<div class="col-md-6 col-md-12">
-                <ul class="nav navbar-nav nav-right">
-                    <li class="menu-border-left nav-active-page">
-                        <a href="about.html">About</a>
-                    </li>
-                    <li class="menu-border-left">
-                        <a href="code-portfolio.html">Code Portfolio</a>
-                    </li>
-                    <li class="menu-border-left">
-                    	<a href="design-portfolio.html">Design Portfolio</a>
-                    </li>
-                    <li class="menu-border-left menu-border-right">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-        	
-        	</div>
-		</div>
-	</div>    
-    
-    <!-- end New Nav - I don't like Bootstrap's Navbar -->    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Mike Morkes, Web Design & Development</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="code-portfolio.html">Code Portfolio</a>
+                        </li>
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="design-portfolio.html">Design Portfolio</a>
+                        </li>
+                        <li class="nav-item menu-border-left menu-border-right px-3">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+	<main>
     <!-- Page Content -->
-    <div class="container-fluid stretch">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12 about taffy taffy-zapper">
             	<div class="container fade-in">
@@ -94,24 +95,15 @@
                 			
                 			<br />
                 			
-                			<!-- <div class="sub-menu">
-                				<ul>
-                					<li><a href="#education">EDUCATION</a></li>
-                					<li><a href="#experience">WORK EXPERIENCE</a></li>
-                					<li><a href="#recommendations">RECOMMENDATIONS</a></li>
-                					<li><a href="#awards">AWARDS</a></li>
-                					<li><a href="#skills">SKILL SET</a></li>
-                				</ul>
-                			</div> -->
-                		
-<!-- Work Experience -->                			
-								<div class="panel panel-info panel-mike">
-								  <a data-toggle="collapse" href="#collapse2" class="panel-mike-link"><div class="panel-heading panel-mike-header">
-								    <h3 class="panel-title panel-mike-title"><span class="glyphicon glyphicon-plus"></span> &nbsp;Work Experience</h3>
-								  </div></a>
-								  <div id="collapse2" class="panel-collapse collapse">
-								  	<div class="panel-mike-body">
-										
+							<div class="accordion" id="accordionExample">
+								<div class="accordion-item bg-about">
+								  <h2 class="accordion-header" id="headingOne">
+									<button class="accordion-button collapsed bg-yellow text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+									  Work Experience
+									</button>
+								  </h2>
+								  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
                 						<h3 class="text-left first">UX Developer</h3>
 											
 											<p class="text-left"><em>Hobby Lobby, November 2017-Present</em></p>
@@ -127,8 +119,19 @@
 												<li>Identify and adapt application to changing requirements</li>
 												<li>Create prototypes during requirements gathering phase of projects</li>
 												<li>Research and implement accessibility options for vision-, hearing-, and mobility-impaired customers</li>
-											</ul>										
-                						<h3 class="text-left">Senior Interactive Designer</h3>
+											</ul>
+											
+											<h3 class="text-left">Owner/ Creative Designer and Developer</h3>
+											
+											<p class="text-left"><em>Nick of Time Design, August 2005–November 2017</em></p>
+											
+											<ul class="text-left">
+												<li>Founded and manage freelance design and development company</li>
+												<li>Effectively collaborate with clients in several different business sectors</li>
+												<li>Research and implement new web technologies that benefit new and existing clients</li>
+												<li>Create effective solutions for business websites using HTML5, CSS3, Wordpress/PHP, and JavaScript</li>
+											</ul>								  	
+                						<h3 class="text-left first">Senior Interactive Designer</h3>
 											
 											<p class="text-left"><em>The Oklahoman Media Company, August 2006–Present</em></p>
 											
@@ -140,17 +143,6 @@
 												<li>Initiated and led committee to research and implement a new ad ticketing system that saves time and reduces miscommunication, avoiding costly reruns</li>
 												<li>Creating revenue opportunities for sales staff through research of new ad units</li>
 												<li>Extensively use HTML5, CSS3, and JavaScript</li>
-											</ul>
-											
-											<h3 class="text-left">Owner/ Creative Designer and Developer</h3>
-											
-											<p class="text-left"><em>Nick of Time Design, August 2005–Present</em></p>
-											
-											<ul class="text-left">
-												<li>Founded and manage freelance design and development company</li>
-												<li>Effectively collaborate with clients in several different business sectors</li>
-												<li>Research and implement new web technologies that benefit new and existing clients</li>
-												<li>Create effective solutions for business websites using HTML5, CSS3, Wordpress/PHP, and JavaScript</li>
 											</ul>
 											
 											<h3 class="text-left">Art Director</h3>
@@ -193,131 +185,125 @@
 												<li>Created and maintained the first three iterations of ucok.edu</li>
 												<li>Mentored student employees</li>
 											</ul>
-											
-         							</div>
-         					  	</div>
+									</div>
+								  </div>
 								</div>
-								
-<!-- Education -->
-
-
-								<div class="panel panel-info panel-mike">
-								  <a data-toggle="collapse" href="#collapse1" class="panel-mike-link"><div class="panel-heading panel-mike-header">
-								    <h3 class="panel-title panel-mike-title"><span class="glyphicon glyphicon-plus"></span> &nbsp;Education</h3>
-								  </div></a>
-								  <div id="collapse1" class="panel-collapse collapse">
-								  	<div class="panel-mike-body">
-                			  			<p class="text-left"><a href="https://www.uco.edu/" target="_blank"><img src="img/uco_logo.png" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><strong>University of Central Oklahoma</strong><br />
-                			  			Bachelor of Arts, Graphic Design, 1995</p>
-                			  			
-                			  			<p class="text-left"><a href="http://okcoders.com/" target="_blank"><img src="img/ok-coders2_logo.png" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><strong>OK Coders Boot Camp</strong><br />
-                			  			Back End Development, Node.js and MondgoDB, July 2016</p>                			
-                			  			
-                			  			<h3 class="text-left">Certifications</h3>
-                 			  			<p class="text-left"><a href="https://www.freecodecamp.com/themorkdaddy/front-end-certification" target="_blank"><img src="img/fcc_logo.png" alt="Free Code Camp Front End Certification" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><a href="https://www.freecodecamp.com" target="_blank" style="color: #fdc00f"><strong>Free Code Camp</strong></a><br />
-                			  			Front End Development Certification, June 2016 </p>                   			
-                 			  			<p class="text-left"><a href="http://goo.gl/E7EGW" target="_blank"><img src="http://goo.gl/18zr5" alt="DoubleClick Studio Certifed" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><strong>DoubleClick Studio</strong><br />
-                			  			HTML5 Core Certification, May 2016 </p>   
-                 			  			<p class="text-left"><a href="http://goo.gl/E7EGW" target="_blank"><img src="http://goo.gl/wTCFP" alt="DoubleClick Studio Dynamic Badge" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><strong>DoubleClick Studio</strong><br />
-                			  			Dynamic Rich Media Creatives Certification, May 2016 </p>   
-                			  			
-                			  			<h3 class="text-left">Other Training</h3>   
-                			  			<p class="text-left"><a href="https://www.codecademy.com/MikeMorkes" target="_blank"><img src="img/codecademy_logo.png" alt="Code Academy" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><a href="https://www.codecademy.com/MikeMorkes" target="_blank" style="color: #fdc00f"><strong>Code Academy</strong></a><br />
-                			  			JavaScript &bullet; PHP &bullet; Learn AngularJS &bullet; Learn Sass &bullet; jQuery</p> 
-                			  			<p class="text-left"><a href="https://www.codeschool.com/users/MikeMorkes" target="_blank"><img src="img/code-school_logo.png" alt="Code School" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><a href="https://www.codeschool.com/users/MikeMorkes" target="_blank" style="color: #fdc00f"><strong>Code School</strong></a><br />
-                			  			Try PHP &bullet; Close Encounters with PHP &bullet; Shaping Up with AngularJS &bullet; JavaScript Road Trip 1-3</p> 
-         					  		</div>
-         					  	</div>
-								</div>								
-                		                			
-
-<!-- Recommendations -->
-								<div class="panel panel-info panel-mike">
-								  <a data-toggle="collapse" href="#collapse3" class="panel-mike-link"><div class="panel-heading panel-mike-header">
-								    <h3 class="panel-title panel-mike-title"><span class="glyphicon glyphicon-plus"></span> &nbsp;Recommendations</h3>
-								  </div></a>
-								  <div id="collapse3" class="panel-collapse collapse">
-								  	<div class="panel-mike-body">
+								<div class="accordion-item bg-about">
+								  <h2 class="accordion-header" id="headingTwo">
+									<button class="accordion-button collapsed bg-yellow text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									  Education
+									</button>
+								  </h2>
+								  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<p class="text-left"><a href="https://www.uco.edu/" target="_blank"><img src="img/uco_logo.png" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><strong>University of Central Oklahoma</strong><br />
+											Bachelor of Arts, Graphic Design, 1995</p>
+											
+										<p class="text-left"><a href="http://okcoders.com/" target="_blank"><img src="img/ok-coders2_logo.png" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><strong>OK Coders Boot Camp</strong><br />
+										Back End Development, Node.js and MondgoDB, July 2016</p>                			
+										
+										<h3 class="text-left">Certifications</h3>
+											<p class="text-left"><a href="https://www.freecodecamp.com/themorkdaddy/front-end-certification" target="_blank"><img src="img/fcc_logo.png" alt="Free Code Camp Front End Certification" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><a href="https://www.freecodecamp.com" target="_blank" style="color: #fdc00f"><strong>Free Code Camp</strong></a><br />
+										Front End Development Certification, June 2016 </p>                   			
+										
+										<h3 class="text-left">Other Training</h3>   
+										<p class="text-left"><a href="https://www.codecademy.com/MikeMorkes" target="_blank"><img src="img/codecademy_logo.png" alt="Code Academy" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><a href="https://www.codecademy.com/MikeMorkes" target="_blank" style="color: #fdc00f"><strong>Code Academy</strong></a><br />
+										JavaScript &bullet; PHP &bullet; Learn AngularJS &bullet; Learn Sass &bullet; jQuery</p> 
+										<p class="text-left"><a href="https://www.codeschool.com/users/MikeMorkes" target="_blank"><img src="img/code-school_logo.png" alt="Code School" width="40" height="40" border="0" style="margin-right: 15px; float: left;" /></a><a href="https://www.codeschool.com/users/MikeMorkes" target="_blank" style="color: #fdc00f"><strong>Code School</strong></a><br />
+										Try PHP &bullet; Close Encounters with PHP &bullet; Shaping Up with AngularJS &bullet; JavaScript Road Trip 1-3</p> 
+									</div>
+								  </div>
+								</div>
+								<div class="accordion-item bg-about">
+								  <h2 class="accordion-header" id="headingThree">
+									<button class="accordion-button collapsed bg-yellow text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									  Recommendations
+									</button>
+								  </h2>
+								  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
 										<blockquote class="quoteText"><span style="color: #d7dfe8 !important;">"Mike is an extremely dependable, hard-working person. His interactive/design skills are rock solid, he can quickly adapt to new technology, and he is always willing to take on new challenges. He works well as part of a team or on his own. I managed Mike for a number of years and would strongly recommend him. He's professional, accurate, and always delivers."</span><br /><br />
 										<p class="text-right">Joseph Hopper, <em>Owner/President, Fluxx Marketing</em></p></blockquote>     <br />  
-										
+											
 										<blockquote class="quoteText"><span style="color: #d7dfe8 !important;">"Mike's graphic design skills, website design and overall knowledge of computers and software were definite assets to our business. I continue to work with Mike on freelance projects from time to time and he never disappoints."</span><br /><br />
 										<p class="text-right">Kyle Haley, <em>Marketing Specialist, Precision Marketing</em></p></blockquote>      <br />  
 										
 										<blockquote class="quoteText"><span style="color: #d7dfe8 !important;">"Mike has the foresight to see the end result before even starting a task allowing him to make the necessary adjustments along the way to achieve his goal with the highest level of quality. He is very detail oriented and does not settle for second best from himself or his colleagues. Mike believes every task he is working on is the most important and treats his job as such."</span><br /><br />
-										<p class="text-right">Todd Hough, <em>Copywriter, Mason & Moon Advertising</em></p></blockquote>         					  		
+										<p class="text-right">Todd Hough, <em>Copywriter, Mason & Moon Advertising</em></p></blockquote>  
 									</div>
-         					  </div>
+								  </div>
 								</div>
-
-<!-- Awards -->
-								<div class="panel panel-info panel-mike">
-								  <a data-toggle="collapse" href="#collapse4" class="panel-mike-link"><div class="panel-heading panel-mike-header">
-								    <h3 class="panel-title panel-mike-title"><span class="glyphicon glyphicon-plus"></span> &nbsp;Awards (2011-2017)</h3>
-								  </div></a>
-								  <div id="collapse4" class="panel-collapse collapse">
-								  	<div class="panel-mike-body">
-                					<p class="text-left"><strong>The Oklahoman Employee of the Month, Marketing</strong><br />
-                					January 2016</p>
-                					<p class="text-left"><strong>OPUBCO Publisher’s Club, 2012</strong></p>
-                					<ul class="text-left neg-top-margin">
-                						<li>6 Inky Awards (Online Ad of the Month)</li>
-                						<li>Error-Free, 6 Months (award discontinued in July)</li>  
-                					</ul>              
-                					<p class="text-left"><strong>OPUBCO Publisher’s Club, 2011</strong></p>
-                					<ul class="text-left neg-top-margin">
-                						<li>7 Inky Awards (Online Ad of the Month)</li>
-                						<li>Error-Free, 1 Year</li>
-                					</ul>       
-                					<p class="text-left"><strong>OPUBCO Publisher’s Club, 2011</strong></p>
-                					<ul class="text-left neg-top-margin">
-                						<li>2011 Best of Show, Online Advertising</li>
-                						<li>4 Arty Awards (Online Ad of the Month)</li>
-                						<li>Error-Free, 1 Year</li>
-                					</ul>                    			                   												
-                				</div>
-         					  </div>
-								</div>
-
-
-<!-- Skill Set -->                			            			            			
-								<div class="panel panel-info panel-mike">
-								  <a data-toggle="collapse" href="#collapse5" class="panel-mike-link"><div class="panel-heading panel-mike-header">
-								    <h3 class="panel-title panel-mike-title"><span class="glyphicon glyphicon-plus"></span> &nbsp;Skill Set</h3>
-								  </div></a>
-								  <div id="collapse5" class="panel-collapse collapse">
-								  	<div class="panel-mike-body">
-                					<ul class="text-left">
-                						<li>web design and front end development, including: <br />
-                							<ul class="text-left">
-                								<li>HTML</li> 
-                								<li>CSS</li>
-                								<li>JavaScript</li>
-                								<li>PHP</li>
-                								<li>jQuery</li>
-                							</ul>
-                						</li>
-                						<li>Wordpress template development</li>
-                						<li>digital/rich media ad design</li>
-                						<li>email blast design and development</li>
-                						<li>logo design</li>
-                						<li>print design</li>
-                						<li>strong proofreading skills</li>
-                					</ul>
-										
-                					<h3 class="text-left">Proficient With:</h3>
-                					<ul class="text-left">
-											<li>Coda</li>
-											<li>git</li>
-											<li>terminal</li>
-											<li>Photoshop</li>
-											<li>Indesign</li>
-											<li>Illustrator</li>
-										</ul>                    			                   												
-                				</div>
-         					  </div>
-								</div>
-												
+								<div class="accordion-item bg-about">
+									<h2 class="accordion-header" id="headingFour">
+									  <button class="accordion-button collapsed bg-yellow text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										Awards (2011-2017)
+									  </button>
+									</h2>
+									<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+									  <div class="accordion-body">
+										<p class="text-left"><strong>The Oklahoman Employee of the Month, Marketing</strong><br />
+											January 2016</p>
+											<p class="text-left"><strong>OPUBCO Publisher’s Club, 2012</strong></p>
+											<ul class="text-left neg-top-margin">
+												<li>6 Inky Awards (Online Ad of the Month)</li>
+												<li>Error-Free, 6 Months (award discontinued in July)</li>  
+											</ul>              
+											<p class="text-left"><strong>OPUBCO Publisher’s Club, 2011</strong></p>
+											<ul class="text-left neg-top-margin">
+												<li>7 Inky Awards (Online Ad of the Month)</li>
+												<li>Error-Free, 1 Year</li>
+											</ul>       
+											<p class="text-left"><strong>OPUBCO Publisher’s Club, 2011</strong></p>
+											<ul class="text-left neg-top-margin">
+												<li>2011 Best of Show, Online Advertising</li>
+												<li>4 Arty Awards (Online Ad of the Month)</li>
+												<li>Error-Free, 1 Year</li>
+											</ul>  
+									  </div>
+									</div>
+								  </div>
+								  <div class="accordion-item bg-about">
+									<h2 class="accordion-header" id="headingFive">
+									  <button class="accordion-button collapsed bg-yellow text-black" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+										Skill Set
+									  </button>
+									</h2>
+									<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+									  <div class="accordion-body">
+										<ul class="text-left">
+											<li>web design and front end development, including: <br />
+												<ul class="text-left">
+													<li>HTML</li> 
+													<li>CSS</li>
+													<li>JavaScript</li>
+													<li>jQuery</li>
+													<li>Angular</li>
+													<li>PHP</li>
+													<li>npm and nuget</li>
+												</ul>
+											</li>
+											<li>Wordpress template development</li>
+											<li>digital/rich media ad design</li>
+											<li>email blast design and development</li>
+											<li>logo design</li>
+											<li>print design</li>
+											<li>strong proofreading skills</li>
+										</ul>
+											
+										<h3 class="text-left">Proficient With:</h3>
+										<ul class="text-left">
+												<li>Visual Studio & Visual Studio Code</li>
+												<li>Coda</li>
+												<li>git</li>
+												<li>terminal</li>
+												<li>Photoshop</li>
+												<li>Indesign</li>
+												<li>Illustrator</li>
+										</ul>     
+									  </div>
+									</div>
+								  </div>									  								
+							  </div>
 							
                 		</div>
             			<div class="col-md-3 col-lg-2"></div>
@@ -327,37 +313,37 @@
         </div>
     </div>
     <!-- /.container -->
+	</main>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-    
-    <!-- panel expand stuff -->
-    <script src="js/panel-expand.js"></script>    
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
-    <!-- refresh layout dynamically without a reload when width changes   -->
-        <script>window.addEventListener('orientationchange', function () {
-    var originalBodyStyle = getComputedStyle(document.body).getPropertyValue('display');
-    document.body.style.display='none';
-    setTimeout(function () {
-      document.body.style.display = originalBodyStyle;
-    }, 10);
-  });    
-    </script>
-    
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	<!-- jQuery -->
+	<script src="js/jquery-3.6.0.min.js"></script>
 
-  ga('create', 'UA-91995387-1', 'auto');
-  ga('send', 'pageview');
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.bundle.min.js"></script>
 
-</script>    
+		<!-- refresh layout dynamically without a reload when width changes   -->
+	<script>window.addEventListener('orientationchange', function () {
+		var originalBodyStyle = getComputedStyle(document.body).getPropertyValue('display');
+		document.body.style.display='none';
+		setTimeout(function () {
+		document.body.style.display = originalBodyStyle;
+		}, 10);
+		});    
+	</script>
+		
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-</body>
+	ga('create', 'UA-91995387-1', 'auto');
+	ga('send', 'pageview');
+
+	</script>    
+
+	</body>
 
 </html>
