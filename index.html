@@ -27,7 +27,9 @@
 
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
-<link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<!--<link href='https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
+
+<link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">
 
 <!-- Hotjar Tracking Code for www.mikemorkes.com -->
 <script>
@@ -45,79 +47,74 @@
 
 <body>
 
-    <!-- Page Content -->
-    <!-- <div class="container-fluid">
-    	<div class="row">
-    		<div class="col-sm-12 masthead">
-    			<h1 class="h1-home"><span  itemprop="name">Mike Morkes</span>, Web Design & Development</h1>
-    		</div>
-    	</div>
-    </div> -->
-
-    <!-- New Nav - I don't like Bootstrap's Navbar -->
-
-    <div class="container-fluid newnav">
-        <div class="row">
-        	<div class="col-md-6 col-md-12" id="logo">
-        		<a class="navbar-brand" href="index.html">Mike Morkes, Web Design & Development</a>
-        	</div>
-        	<div class="col-md-6 col-md-12">
-                <ul class="nav navbar-nav nav-right">
-                    <li class="menu-border-left">
-                        <a href="about.html">About</a>
-                    </li>
-                    <li class="menu-border-left">
-                        <a href="code-portfolio.html">Code Portfolio</a>
-                    </li>
-                    <li class="menu-border-left">
-                    	<a href="design-portfolio.html">Design Portfolio</a>
-                    </li>
-                    <li class="menu-border-left menu-border-right">
-                        <a href="contact.html">Contact</a>
-                    </li>
-                </ul>
-
-        	</div>
-		</div>
-	</div>
-
-    <!-- end New Nav - I don't like Bootstrap's Navbar -->
-
-
-    <div class="container-fluid stretch">
-        <div class="row"  itemscope itemtype="http://schema.org/Person" >
-
-
-            <a href="about.html" aria-label="View the About Mike Morkes page" title="View the About Mike Morkes page"><div class="col-xs-12 col-sm-6 col-md-3 about taffy">
-            	<img class="rounders big-icons" src="img/about-icon.png" alt="" role="presentation">
-                <h2 class="h1-home">About Mike&nbsp;Morkes</h2>
-                <div itemprop="description"><p>Since 1993, I have worked in print, interactive media and web content in the fields of education, agriculture, and news&nbsp;media.</p>
-                <p><strong>View my education, certifications, and work&nbsp;history.</strong></p>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Mike Morkes, Web Design & Development</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="about.html">About</a>
+                        </li>
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="code-portfolio.html">Code Portfolio</a>
+                        </li>
+                        <li class="nav-item menu-border-left px-3">
+                            <a href="design-portfolio.html">Design Portfolio</a>
+                        </li>
+                        <li class="nav-item menu-border-left menu-border-right px-3">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </div></a>
-
-            <a href="code-portfolio.html" aria-label="View the Portfolio of Mike Morkes" title="View the Portfolio of Mike Morkes"><div class="col-xs-12 col-sm-6 col-md-3 portfolio taffy">
-            	<img class="rounders big-icons" src="img/code-icon.png" alt="" role="presentation">
-                <h2 class="h1-home">Code Portfolio</h2>
-                <p>Web Development and code samples.</p>
-            </div></a>
-
-            <a href="design-portfolio.html"><div class="col-xs-12 col-sm-6 col-md-3 experience taffy">
-            	<img class="rounders big-icons" src="img/design-icon.png" alt="" role="presentation">
-                <h2 class="h1-home">Design Portfolio</h2>
-                <p>View my work spanning a 20+ year career in&nbsp;design.</p>
-            </div></a>
-
-            <div class="col-xs-12 col-sm-6 col-md-3 contact taffy">
-            	<a href="contact.html" aria-label="Contact Mike Morkes via online form" title="Contact Mike Morkes via online form"><img class="rounders big-icons" src="img/contact-icon.png" alt="" role="presentation">
-                <h2 class="h1-home">Contact Mike&nbsp;Morkes</h2></a>
-
-                                <p><a href="https://twitter.com/mikemorkes" target="_blank"  aria-label="View and follow the twitter feed of Mike Morkes" title="View and follow the twitter feed of Mike Morkes"><img src="img/twitter_logo.png" width="40" height="40" style="margin-right: 15px; border: 0;" alt="Twitter icon" /></a><a href="https://www.linkedin.com/pub/mike-morkes/7/88/902" target="_blank"  aria-label="Follow Mike Morkes on LinkedIn" title="Follow Mike Morkes on LinkedIn"><img src="img/linkedin_logo.png" width="40" height="40" style="margin-right: 15px; border: 0" alt="LinkedIn icon" /></a></p>
             </div>
+        </nav>
+    </header>
 
 
+    <main>
+        <div class="container-fluid h-100">
+            <div class="row h-100" itemscope itemtype="http://schema.org/Person">
+                <div class="col-xs-12 col-sm-6 col-md-3 about taffy position-relative">
+                    <a href="about.html" aria-label="View the About Mike Morkes page" title="View the About Mike Morkes page" class="stretched-link">
+                        <img class="rounders big-icons" src="img/about-icon.png" alt="" role="presentation">
+                        <h2 class="h1-home">About Mike&nbsp;Morkes</h2>
+                        <div itemprop="description"><p>Since 1993, I have worked in print, interactive media and web content in the fields of education, agriculture, and news&nbsp;media.</p></div>
+                        <p><strong>View my education, certifications, and work&nbsp;history.</strong></p>
+                    </a>
+                </div>
+    
+                <div class="col-xs-12 col-sm-6 col-md-3 portfolio taffy position-relative box-column">
+                    <a href="code-portfolio.html" aria-label="View the Portfolio of Mike Morkes" title="View the Portfolio of Mike Morkes" class="stretched-link">
+                        <img class="rounders big-icons" src="img/code-icon.png" alt="" role="presentation">
+                        <h2 class="h1-home">Code Portfolio</h2>
+                        <p>Web Development and code samples.</p>
+                    </a>
+                </div>
+    
+                
+                <div class="col-xs-12 col-sm-6 col-md-3 experience taffy position-relative box-column">
+                    <a href="design-portfolio.html"><img class="rounders big-icons" src="img/design-icon.png" alt="" role="presentation" class="stretched-link">
+                        <h2 class="h1-home">Design Portfolio</h2>
+                        <p>View my work spanning a 20+ year career in&nbsp;design.</p>
+                    </a>
+                </div>
+    
+                <div class="col-xs-12 col-sm-6 col-md-3 contact taffy position-relative box-column">
+                    <a href="contact.html" aria-label="Contact Mike Morkes via online form" title="Contact Mike Morkes via online form">
+                        <img class="rounders big-icons" src="img/contact-icon.png" alt="" role="presentation">
+                        <h2 class="h1-home">Contact Mike&nbsp;Morkes</h2>
+                    </a>
+    
+                    <p><a href="https://twitter.com/mikemorkes" target="_blank"  aria-label="View and follow the twitter feed of Mike Morkes" title="View and follow the twitter feed of Mike Morkes"><img src="img/twitter_logo.png" width="40" height="40" style="margin-right: 15px; border: 0;" alt="Twitter icon" /></a><a href="https://www.linkedin.com/pub/mike-morkes/7/88/902" target="_blank"  aria-label="Follow Mike Morkes on LinkedIn" title="Follow Mike Morkes on LinkedIn"><img src="img/linkedin_logo.png" width="40" height="40" style="margin-right: 15px; border: 0" alt="LinkedIn icon" /></a></p>
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
+
     <!-- /.container -->
 
         <!-- Custom CSS -->
@@ -126,10 +123,10 @@
     <link href="css/animate-index.css" rel="stylesheet">
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- refresh layout dynamically without a reload when width changes   -->
         <script>window.addEventListener('orientationchange', function () {
@@ -151,25 +148,6 @@
   ga('send', 'pageview');
 
 </script>
-	
-<script type="text/javascript">
-var _userway_config = {
-/* uncomment the following line to override default position*/
-/* position: '3', */
-/* uncomment the following line to override default size (values: small, large)*/
-/* size: 'large', */
-/* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
-/* language: 'en-US', */
-/* uncomment the following line to override color set via widget (e.g., #053f67)*/
-/* color: '#fdc00f', */
-/* uncomment the following line to override type set via widget(1=person, 2=chair, 3=eye)*/
-/* type: '1', */
-/* uncomment the following line to override support on mobile devices*/
-/* mobile: true, */
-account: 'I8xan3j5aX'
-};
-</script>
-<script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
 
 </body>
 
