@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Monarch Vacation Countdown</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">  
+    <link href="css/logo-nav.css" rel="stylesheet">    
+    <link href="css/animate.css" rel="stylesheet">    
+    
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+<link href="https://fonts.googleapis.com/css?family=Ultra" rel="stylesheet">   
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <link type="text/css" rel="stylesheet" href="clock_assets/flipclock.css" />
+
+</head>
+
+<body>
+    
+    <!-- New Nav - I don't like Bootstrap's Navbar -->
+  
+    <div class="container-fluid newnav">
+        <div class="row">
+        	<div class="col-md-6 col-md-12">
+        	<a class="navbar-brand" href="index.html">Mike Morkes, Web Design & Development</a>
+        	</div>
+        	<div class="col-md-6 col-md-12">
+                <ul class="nav navbar-nav nav-right">
+                    <li class="menu-border-left">
+                        <a href="about.html">About</a>
+                    </li>
+                    <li class="menu-border-left">
+                        <a href="code-portfolio.html">Code Portfolio</a>
+                    </li>
+                    <li class="menu-border-left">
+                    	<a href="design-portfolio.html">Design Portfolio</a>
+                    </li>
+                    <li class="menu-border-left nav-active-page menu-border-right">
+                        <a href="contact.html"><strong>Contact</strong></a>
+                    </li>
+                </ul>
+        	
+        	</div>
+		</div>
+	</div>    
+    
+    <!-- end New Nav - I don't like Bootstrap's Navbar -->    
+
+    <!-- Page Content -->
+    <div class="container-fluid stretch">
+        <div class="row">
+            <div class="col-sm-12 about taffy taffy-zapper">
+            	<div class="container fade-in">
+            		<div class="row">
+            			<div class="col-md-3 col-lg-2"></div>
+            			<div class="col-md-6 col-lg-8 bumper">
+            				
+            				
+            				
+            				<h1 style="margin-bottom: 20px;">Monarch Countdown</h1>
+            				<h4 style="margin-bottom: 50px;"><a style="color: #fff !important;">February 21-25 2020</a></h4>
+            				
+<div class="row" style="margin-bottom: 20px;">
+    <div class="col-md-3">&nbsp;</div>
+    <div class="col-md-6">
+        <div class="clock-builder-output" ></div>
+    </div>
+    <div class="col-md-3">&nbsp;</div>
+</div>
+
+                            
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript" src="clock_assets/flipclock.js"></script>
+<style text="text/css">body .flip-clock-wrapper ul li a div div.inn, body .flip-clock-small-wrapper ul li a div div.inn { color: #CCCCCC; background-color: #333333; } body .flip-clock-dot, body .flip-clock-small-wrapper .flip-clock-dot { background: #323434; } body .flip-clock-wrapper .flip-clock-meridium a, body .flip-clock-small-wrapper .flip-clock-meridium a { color: #323434; }</style>
+<script type="text/javascript">
+$(function(){
+	FlipClock.Lang.Custom = { days:'Days', hours:'Hours', minutes:'Minutes', seconds:'Seconds' };
+	var opts = {
+		clockFace: 'DailyCounter',
+		countdown: true,
+		language: 'Custom'
+	};
+	opts.classes = {
+		active: 'flip-clock-active',
+		before: 'flip-clock-before',
+		divider: 'flip-clock-divider',
+		dot: 'flip-clock-dot',
+		label: 'flip-clock-label',
+		flip: 'flip',
+		play: 'play',
+		wrapper: 'flip-clock-small-wrapper'
+	}; 
+	var date = new Date("February 21, 2020 05:00:00"); //Month Days, Year HH:MM:SS
+ 
+	var countdown = (date.getTime()/1000) - ((new Date().getTime())/1000); // 
+	countdown = Math.max(1, countdown);
+	$('.clock-builder-output').FlipClock(countdown, opts);
+});
+</script>
+
+<div class="row" style="margin-top 20px;">
+    <div class="col-md-12" style="text-align: center;">
+        <img src="img/PatrollerInPow.jpg" alt="photo" style="width: 100%; height: auto">
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2>Trip Details</h2>
+
+        <h3 class="text-left">Condo/Housing</h3>
+        <p class="text-left"><a style="color:#fdc00f" href="https://silverridgelodge.com/silver-ridge-suites/" target="_blank">Silver Ridge Lodge</a></p>        
+        <p class="text-left"><a style="color:#fdc00f" href="http://salida.com/" target="_blank">Salida city website with dining and entertainment stuff.</a></p>
+
+        <h3 class="text-left">Equipment Rentals/Lift Tickets:</h3>
+        <p class="text-left">3-Day Rate: Performance ski and boot discunt rental is $100 (per Dan). <a href="https://www.skimonarch.com/rentals/" target="_blank" style="color: #fdc00f">Go here</a> to view info.</p>
+        <p class="text-left">Discount Lift tickets are $204 for 3 days (per Dan).</p>
+        <h3 class="text-left">Links</h3>
+        <ul class="text-left">
+            <li><a href="http://opensnow.com/dailysnow/colorado" target="_blank" style="color:#fdc00f">OpenSnow</a> - Great snow reports and forecasts for the Colorado area</li>
+            <li><a href="https://www.skimonarch.com/conditions/" target="_blank" style="color:#fdc00f">Monarch Web Cams and Snow Conditions</a></li>
+            <li><a href="https://www.skimonarch.com/wp-content/uploads/2019/10/19-20-trail-map.jpg" target="_blank" style="color: #fdc00f">Downloadable jpg of trail map (not including CAT trails)</a></li>
+        </ul>
+    </div>
+    </div>
+
+</div>
+
+
+            			<div class="col-md-3 col-lg-2"></div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <!-- <script src="js/jquery.js"></script> -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- refresh layout dynamically without a reload when width changes   -->
+        <script>window.addEventListener('orientationchange', function () {
+    var originalBodyStyle = getComputedStyle(document.body).getPropertyValue('display');
+    document.body.style.display='none';
+    setTimeout(function () {
+      document.body.style.display = originalBodyStyle;
+    }, 10);
+  });    
+    </script>
+
+</body>
+
+</html>

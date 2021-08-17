@@ -1,0 +1,17 @@
+1521561169: /home6/mikemork/public_html/quiz/ssv3_payload_extractor-44jN8xzydX.php startup
+[20-Mar-2018 09:52:53] PHP Notice:  Undefined variable: listItem in /home6/mikemork/public_html/quiz/ssv3_payload_extractor-44jN8xzydX.php on line 341
+[20-Mar-2018 09:52:53] PHP Notice:  Undefined property: Install::$setting in /home6/mikemork/public_html/quiz/ssv3_payload_extractor-44jN8xzydX.php on line 362
+[20-Mar-2018 15:53:23] PHP Parse error:  syntax error, unexpected T_STRING in /home6/mikemork/public_html/quiz/wp-content/plugins/OMAPI/Ajax.php on line 307
+[20-Mar-2018 18:38:38] PHP Parse error:  syntax error, unexpected T_STRING in /home6/mikemork/public_html/quiz/wp-content/plugins/OMAPI/Ajax.php on line 307
+[20-Mar-2018 19:21:09] PHP Parse error:  syntax error, unexpected T_STRING in /home6/mikemork/public_html/quiz/wp-content/plugins/OMAPI/Ajax.php on line 307
+[22-Jun-2018 13:41:44] PHP Parse error:  syntax error, unexpected T_STRING in /home6/mikemork/public_html/quiz/wp-content/plugins/OMAPI/Ajax.php on line 307
+[03-Oct-2018 06:26:59] PHP Parse error:  syntax error, unexpected T_STRING in /home6/mikemork/public_html/quiz/wp-content/plugins/OMAPI/Ajax.php on line 307
+[29-Nov-2018 18:02:47] PHP Parse error:  syntax error, unexpected T_STRING in /home6/mikemork/public_html/quiz/wp-content/plugins/OMAPI/Ajax.php on line 307
+[16-Jan-2019 05:50:48] PHP Parse error:  syntax error, unexpected T_STRING in /home6/mikemork/public_html/quiz/wp-content/plugins/OMAPI/Ajax.php on line 307
+[26-Sep-2019 12:38:12 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home4/mikemork/public_html/quiz/wp-includes/pomo/plural-forms.php on line 210
+[26-Sep-2019 12:38:12 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home4/mikemork/public_html/quiz/wp-includes/pomo/plural-forms.php on line 210
+[26-Sep-2019 12:38:14 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home4/mikemork/public_html/quiz/wp-includes/pomo/plural-forms.php on line 210
+[20-Feb-2020 19:50:38 UTC] PHP Warning:  require_once(/home4/mikemork/public_html/quiz/wp-content/plugins/jetpack/class.jetpack-data.php): failed to open stream: No such file or directory in /home4/mikemork/public_html/quiz/wp-content/plugins/jetpack/load-jetpack.php on line 46
+[20-Feb-2020 19:50:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/home4/mikemork/public_html/quiz/wp-content/plugins/jetpack/class.jetpack-data.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/mikemork/public_html/quiz/wp-content/plugins/jetpack/load-jetpack.php on line 46
+[15-Dec-2020 21:27:38 UTC] PHP Warning:  require_once(/home4/mikemork/public_html/quiz/wp-content/plugins/jetpack/class.jetpack-data.php): failed to open stream: No such file or directory in /home4/mikemork/public_html/quiz/wp-content/plugins/jetpack/load-jetpack.php on line 46
+[15-Dec-2020 21:27:38 UTC] PHP Fatal error:  require_once(): Failed opening required '/home4/mikemork/public_html/quiz/wp-content/plugins/jetpack/class.jetpack-data.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/mikemork/public_html/quiz/wp-content/plugins/jetpack/load-jetpack.php on line 46
