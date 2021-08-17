@@ -50,7 +50,7 @@ main {
 h1 {
 	color: #fdc00f;
 	font-size: 28px;
-	font-family: 'Ultra', serif;
+	font-family: 'Arvo', serif;
 	font-weight:400 !important;
 	-webkit-font-smoothing:antialiased;	
 }
@@ -62,14 +62,14 @@ h1 {
 h2 {
 	color: #fdc00f;
 	font-size: 28px;
-	font-family: 'Ultra', serif;
+	font-family: 'Arvo', serif;
 	font-weight:400 !important;
 	-webkit-font-smoothing:antialiased;	
 }
 
 h3 {
 	color: #fff;
-	font-family: 'Ultra', serif;
+	font-family: 'Arvo', serif;
 	font-weight:400 !important;
 	-webkit-font-smoothing:antialiased;	
 	margin-top: 35px;
