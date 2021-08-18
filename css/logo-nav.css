@@ -9,11 +9,11 @@ body {
 }
 
 .navbar-fixed-top .nav {
-    padding: 15px 0;
+    padding: 0.9375rem 0;
 }
 
 .navbar-fixed-top .navbar-brand {
-    padding: 0 15px;
+    padding: 0 0.9375rem;
 }
 
 @media(min-width:768px) {
@@ -22,7 +22,7 @@ body {
     }
 
     .navbar-fixed-top .navbar-brand {
-        padding: 15px 0;
+        padding: 0.9375rem 0;
     }
 }
 
@@ -38,10 +38,11 @@ body {
 }
 
 .navbar-brand {
-	font-family: 'Arvo', serif;
-    margin-top: 10px;
+	font-family: 'Aleo', serif;
+    margin-top: 0.625rem;
 	-webkit-font-smoothing:antialiased;	
 	color: #fff !important;
+    font-weight: 700;
 }
 
 .navbar-brand:hover {
