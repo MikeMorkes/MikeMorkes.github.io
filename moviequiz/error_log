@@ -1,7 +1,0 @@
-1521555576: /home6/mikemork/public_html/moviequiz/ssv3_payload_extractor-AvCYTDo4Qx.php startup
-[20-Mar-2018 08:19:40] PHP Notice:  Undefined variable: listItem in /home6/mikemork/public_html/moviequiz/ssv3_payload_extractor-AvCYTDo4Qx.php on line 341
-[20-Mar-2018 08:19:40] PHP Notice:  Undefined property: Install::$setting in /home6/mikemork/public_html/moviequiz/ssv3_payload_extractor-AvCYTDo4Qx.php on line 362
-[20-Mar-2018 14:27:16] PHP Parse error:  syntax error, unexpected T_STRING in /home6/mikemork/public_html/moviequiz/wp-content/plugins/optinmonster/OMAPI/Ajax.php on line 307
-[20-Mar-2018 15:48:35] PHP Parse error:  syntax error, unexpected T_STRING in /home6/mikemork/public_html/moviequiz/wp-content/plugins/optinmonster/OMAPI/Ajax.php on line 307
-[20-Mar-2018 15:49:41] PHP Parse error:  syntax error, unexpected T_STRING in /home6/mikemork/public_html/moviequiz/wp-content/plugins/optinmonster/OMAPI/Ajax.php on line 307
-1521561006: /home6/mikemork/public_html/moviequiz/ssv3_removal_payload-oGPycRDJdl.php startup
